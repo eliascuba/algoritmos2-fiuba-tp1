@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 3.22)
-project(AyED_TP1_1c2024)
+project(ALGORITMOS2-FIUBA-TP1)
 
 set(CMAKE_CXX_STANDARD 23)
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "../")
@@ -12,7 +12,7 @@ include_directories(include)
 #   "directorio/archivo.cpp"
 set(ARCHIVOS_FUENTE "src/Herta.cpp" "include/Herta.hpp" )
 
-add_executable(AyED_TP1_1c2024
+add_executable(ALGORITMOS2-FIUBA-TP1
         ${ARCHIVOS_FUENTE}
         "main.cpp"
 )
